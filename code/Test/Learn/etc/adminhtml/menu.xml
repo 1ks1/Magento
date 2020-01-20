@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Test_Learn::learn" title="••• Learn •••" module="Test_Learn" sortOrder="51" parent="Magento_Catalog::catalog" resource="Test_Learn::learn"/>
+        
+        <add id="Test_Learn::learn::config" title="◄═ Config ═►" module="Test_Learn" sortOrder="60" parent="Test_Learn::learn" resource="Test_Learn::learn"/>
+    </menu>
+</config>

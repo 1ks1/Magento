@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Test_Coupons::coupons" title="Coupons" module="Test_Coupons" sortOrder="61" resource="Tset_Coupons::coupons" parent="Test_Foo::foo" />
+        <add id="Test_Coupons::coupons::coupons_configuration" title="Config Coupon Module" module="Test_Coupons" sortOrder="60" parent="Test_Coupons::coupons" action="adminhtml/system_config/edit/section/coupons" resource="Test_Coupons::coupons_configuration"/>
+    </menu>
+</config>
